@@ -1,0 +1,15 @@
+{
+  "name": "node-superconf",
+  "version": "0.0.1",
+  "private": false,
+  "main": "src/index.js",
+  "dependencies": {
+    "node-zookeeper-client": "^1.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.1"
+  },
+  "scripts": {
+    "superconf": "node ./examples/use_config.js"
+  }
+}
